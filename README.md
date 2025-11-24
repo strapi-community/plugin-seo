@@ -15,13 +15,13 @@ To install this plugin, you need to add an NPM dependency to your Strapi applica
 
 ```sh
 # Using Yarn
-yarn add @strapi/plugin-seo
+yarn add @strapi-community/plugin-seo
 
 # Or using PNPM
-pnpm add @strapi/plugin-seo
+pnpm add @strapi-community/plugin-seo
 
 # Or using NPM
-npm install @strapi/plugin-seo
+npm install @strapi-community/plugin-seo
 ```
 
 ## How it works

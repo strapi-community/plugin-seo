@@ -1,6 +1,6 @@
 {
-  "name": "@strapi/plugin-seo",
-  "version": "2.0.8",
+  "name": "@strapi-community/plugin-seo",
+  "version": "2.1.0",
   "description": "Make your Strapi content SEO friendly.",
   "keywords": [],
   "type": "commonjs",
@@ -50,8 +50,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/strapi/strapi-plugin-seo.git"
+    "url": "https://github.com/strapi-community/plugin-seo.git"
   },
+  "bugs": {
+    "url": "https://github.com/strapi-community/plugin-seo/issues"
+  },
+  "homepage": "https://github.com/strapi-community/plugin-seo",
   "resolutions": {
     "yargs": "^17.2.1",
     "prettier": "3.3.3"
@@ -63,9 +67,8 @@
   },
   "maintainers": [
     {
-      "name": "Strapi Solutions SAS",
-      "email": "hi@strapi.io",
-      "url": "https://strapi.io"
+      "name": "Boaz Poolman",
+      "email": "boaz@pluginpal.io"
     }
   ],
   "strapi": {
@@ -73,5 +76,6 @@
     "displayName": "SEO",
     "description": "Make your Strapi content SEO friendly.",
     "kind": "plugin"
-  }
+  },
+  "license": "MIT"
 }
